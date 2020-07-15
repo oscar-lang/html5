@@ -1,0 +1,48 @@
+.talkbubble {
+  width: 120px;
+  height: 80px;
+  background-image: linear-gradient(to right, green, aqua);
+  position: relative;
+  left: 50px;
+  /*-moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;*/
+}
+.gradient-reverst {
+  width: 120px;
+  height: 80px;
+  position: relative;
+  left: 50px;
+  background-image: linear-gradient(to right, aqua, green);
+}
+/*.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid red;
+  border-bottom: 13px solid transparent;
+}*/
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 30%;
+  width: 50px;
+  height: 0px;
+  border-top: 13px solid transparent;
+  border-right: 13px solid green;
+  border-bottom: 13px solid transparent;
+}
+.gradient-reverst:before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 30%;
+  border-top: 13px solid transparent;
+  border-left: 13px solid green;
+  border-bottom: 13px solid transparent;
+}
